@@ -40,13 +40,13 @@ source .devops/bin/activate
 
 ### Running `app.py`
 
-1. Standalone:  `python app.py`
-2. Run in Docker:  `./run_docker.sh`
-3. Run in Kubernetes:  `./run_kubernetes.sh`
+1. Run standalone if python is installed:  `python app.py`
+2. Run in Docker if docker is installed:  `./run_docker.sh`
+3. Run in Kubernetes if kubernetes is installed:  `./run_kubernetes.sh`
 
 ### Kubernetes Steps
 
-* Setup and Configure Docker locally by installing docker desktop and minuikube via : https://minikube.sigs.k8s.io/docs/start/
-* Setup and Configure Kubernetes locally via https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
-* Create Flask app in Container
-* Run via kubectl
+* Setup and Configure Docker locally by installing docker desktop and minikube following the steps here : https://minikube.sigs.k8s.io/docs/start/
+* Setup and Configure Kubernetes locally following the steps here: https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+* Create Flask app in Container: `bash run_docker.sh`
+* Run via kubectl: `bash run_kubernetes.sh`

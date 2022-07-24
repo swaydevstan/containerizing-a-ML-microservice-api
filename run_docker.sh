@@ -12,4 +12,4 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -d -p 80:80 housing-app:v1
+docker run -d -p 8000:80 housing-app:v1

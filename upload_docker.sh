@@ -5,7 +5,7 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath="swaydevstan/udacity-housing-app:latest"
+dockerpath="swaydevstan/udacity-housing-app"
 
 # Step 2:  
 # Authenticate & tag

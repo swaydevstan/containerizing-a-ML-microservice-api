@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+<!-- <include a CircleCI status badge, here> -->
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/swaydevstan/udacity-microservicesML-project/tree/main.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/swaydevstan/udacity-microservicesML-project/tree/main)
 ## Project Overview
 
